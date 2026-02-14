@@ -12,7 +12,7 @@ k = 4
 m = 1
 x= [1]
 v = [0]
-dt = 0.1
+dt = 0.001
 a = [0]
 t=[0]
 E=[0.5*k*x[0]**2]
@@ -41,6 +41,7 @@ def animate(i):
 ani = FuncAnimation(fig, animate, interval = 10, cache_frame_data=False)
 plt.tight_layout()
 plt.show()
+
 
 
 
